@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+		<meta name="viewport" content="initial-scale=1,width=device-width">
+
+		
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/style.css">
+
+	 	
+	 	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<!--Socila media files-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+
+  <!--end of socila media files-->
+	
+
+	 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="js/query.min.js" language="javascript" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js" language="javascript" type="text/javascript"></script>
+
+</head>
+<style type="text/css">
+	
+
+.carousel-item
+{
+	width: 100%;
+	height: 100%;
+}
+
+    header.jumbotron {
+      background-color: #ff266e;
+      color: #ffffff;
+    }
+    label
+    {
+      float: left;
+      font-weight: bold;
+    }
+   
+
+</style>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+ $('.hair').click(function()
+ 	{
+ 		$('#hair').SlideUp('slow');
+ 		$('#style').hide();
+ 		$('#b&shave').hide();
+ 		$('#f&body').hide();
+ 		$('#sale').hide();
+ 	})
+	});
+</script>
+
+<body>
+	<div class="main_container">
+    <center>
+		<div class="container-fluid">
+			<header >
+
+				<div class="row">
+					<div class="col-md-12">
+						
+
+			
+					<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"><div class="logo"><img src="images/logo.png" style="width: 265px;
+    height: 157px;"></div></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  style="background: : black;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Careers.html">Careers</a>
+      </li>  
+       <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>  
+        <li class="nav-item">
+        <a class="nav-link" href="book.html">Book an appointment</a>
+      </li>   
+        <li class="nav-item">
+        <a class="nav-link" href="shop.html">Shop</a>
+      </li> 
+    </ul>
+  </div> 
+  <div class="input-group mb-3" style="width: 320px;">
+  <input type="text" class="form-control" placeholder="Serach your style..">
+  <div class="input-group-append">
+    <button class="btn btn-primary" type="button">OK</button> 
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal" value="Login">Login </button>
+  </div>
+</div> 
+</nav>
+</header>		
+
+<div class="carousel slider carousel-fade" data-ride="carousel" data-intervel="1000">
+  <div class="carousel-inner">
+  	<div class="carousel-item active">
+  		<img src="images/f.jpg">
+  		<div class="carousel-caption">
+<h3 style="letter-spacing: 2px;font-size:30px;" id="slide_head">Shop our branded products</h3>
+<p id="slide_para">Gt our products by a click,we provide lots of offers for puchasing products</p>
+
+<input type="button" class="btn btn-danger" value="Book Now" id="slide_btn">
+  		</div>
+  	</div>
+  	  	
+  <ul class="carousel-indicators">
+  	<li data-target="#icon" data-slide-to="0" class="active"></li>
+  	<li data-target="#icon" data-slide-to="1"></li>
+  	<li data-target="#icon" data-slide-to="2"></li>
+
+  </ul>
+</div>
+</div>
+</div>
+<br>
+<div class="container-fluid">
+	<div class="row">
+		
+	<div class="col-md-12">
+    
+  <div class="cat" id="catid">
+    <ul>
+      <li>
+        <a class="" href="#all">Shop All</a>
+      </li>
+      <li class="">
+       <a class="" href="#hair">Hair</a> </li>
+      <li class="">
+        <a class="" href="#style">style</a>
+      </li>  
+       <li class="">
+        <a class="" href="#b&shave">Beard & Shave</a>
+      </li>  
+        <li class="">
+        <a class="" href="#f&body">Face & Body</a>
+      </li>   
+        <li class="">
+        <a class="" href="#sale">Sale</a>
+      </li> 
+    </ul>
+  </div> 
+
+
+
+   
+</div>
+</div>
+<br>
+
+<div class="col-md-12">
+	<div class="all"id="all">
+
+        <div class="hair" id="hair">
+        	<div class="row">
+
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p1.jpg" class="thumbnail">
+                <p>clay spray</p>
+                <kbd>Rating:4.5</kbd>
+                <p style="">$12.00</p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div><br>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p2.jpg" class="thumbnail">
+                <p>the Shower Bomb Bundle</p>
+                <kbd>Rating:4.3</kbd>
+                <p style=""><del>$14.00</del>&nbsp;<span style="color: darkorange;"> $12.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        	<br>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p3.jpg" class="thumbnail">
+                <p>No.3 body wash</p>
+                <kbd>Rating:4.4</kbd>
+                <p style="">$12</p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p4.jpg" class="thumbnail">
+                <p>No.1 Shampoo</p>
+                <kbd>Rating:4.0</kbd>
+                <p style="">$10</p>
+                <input type="submit" value="Order Now" class="btn btn-success btn-warning">
+        		
+        	</div>
+        	</div>
+        </div>
+        <br>
+         <div class="style" id="style">
+         	<div class="row">
+
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p5.jpg" class="thumbnail">
+                <p>Travel no.1 Shampoo</p>
+                <kbd>Rating:4.</kbd>
+                <p style="">$5.00</p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div><br>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p6.jpg" class="thumbnail">
+                <p>Travel no.1 Conditioner</p>
+                <kbd>Rating:4.3</kbd>
+                <p>$5.00</p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p7.jpg" class="thumbnail">
+                <p>Travel Tonic Spray</p>
+                <kbd>Rating:4.1</kbd>
+               <p style=""><del>$10.00</del>&nbsp;<span style="color: darkorange;"> $8.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p8.jpg" class="thumbnail">
+                <p>Rake Comb</p>
+                <kbd>Rating:5.0</kbd>
+                <p style="">$6</p>
+                <input type="submit" value="Order Now" class="btn btn-success btn-warning">
+        		
+        	</div>
+        	</div>
+         </div>
+         <br>
+         <div class="b&shave" id="b&shave">
+         	
+         	<div class="row">
+
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p9.jpg" class="thumbnail">
+                <p>Beard Wash</p>
+                <kbd>Rating:4.3</kbd>
+                 <p style=""><del>$25.00</del>&nbsp;<span style="color: darkorange;"> $15.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div><br>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p10.jpg" class="thumbnail">
+                <p>Beard Conditioner</p>
+                <kbd>Rating:4.0</kbd>
+                <p>$20.00</p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p11.jpg" class="thumbnail">
+                <p>Founders Beard Oil Sampler</p>
+                <kbd>Rating:4.4</kbd>
+               <p style=""><del>$18.00</del>&nbsp;<span style="color: darkorange;"> $15.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p12.jpg" class="thumbnail">
+                <p>Shave Cream</p>
+                <kbd>Rating:5.0</kbd>
+              <p style=""><del>$5.00</del>&nbsp;<span style="color: darkorange;"> $3.39</span></p>
+                <input type="submit" value="Order Now" class="btn btn-success btn-warning">
+        		
+        	</div>
+        	</div>
+         </div>
+
+         <br>
+         <div class="f&body" id="f&body">
+         	<div class="row">
+
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p13.jpg" class="thumbnail">
+                <p>Soap On Rope</p>
+                <kbd>Rating:4.1</kbd>
+                 <p style=""><del>$4.99</del>&nbsp;<span style="color: darkorange;"> $2.99</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div><br>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/14.jpg" class="thumbnail">
+                <p>Charcol and Licorice Face Scurb</p>
+                <kbd>Rating:4.4</kbd>
+               <p style=""><del>$18.99</del>&nbsp;<span style="color: darkorange;"> $12.99</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p15.jpg" class="thumbnail">
+                <p>Detoxifying Body Bar</p>
+                <kbd>Rating:4.4</kbd>
+               <p style=""><del>$4.29</del>&nbsp;<span style="color: darkorange;"> $3.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p16.jpg" class="thumbnail">
+                <p>Travel No.1 Body Wash</p>
+                <kbd>Rating:5.0</kbd>
+              <p>$5.00</p>
+                <input type="submit" value="Order Now" class="btn btn-success btn-warning">
+        		
+        	</div>
+        	</div>
+         </div>
+         <br>
+         <div class="sale" id="sale">
+         		<div class="row">
+
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p17.jpg" class="thumbnail">
+                <p>Everyday Pocket Tee</p>
+                <kbd>Rating:4.9</kbd>
+                 <p style=""><del>$12.99</del>&nbsp;<span style="color: darkorange;"> $9.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div><br>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p18.jpg" class="thumbnail">
+                <p>Everyday Zip Hoodie</p>
+                <kbd>Rating:4.4</kbd>
+               <p style=""><del>$24.84</del>&nbsp;<span style="color: darkorange;"> $19.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        			<div class="col-md-3 ">
+        			
+        			<img src="images/p19.jpg" class="thumbnail">
+                <p>Quality Cuts Hoodie</p>
+                <kbd>Rating:4.7</kbd>
+               <p style=""><del>$29.99</del>&nbsp;<span style="color: darkorange;"> $19.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-warning">
+        		
+        	</div>
+        		<div class="col-md-3 ">
+        			
+        			<img src="images/p20.jpg" class="thumbnail">
+                <p>Black "R" Patch Watch Cap</p>
+                <kbd>Rating:5.0</kbd>
+            <p style=""><del>$14.99</del>&nbsp;<span style="color: darkorange;"> $7.00</span></p>
+                <input type="submit" value="Order Now" class="btn btn-success btn-warning">
+        		
+        	</div>
+        	</div>
+
+
+         </div>
+         <br>
+<center>
+	<div class="pbtm" style="width: 100%;margin-top:10px;">
+         <input type="submit" class="btn btn-success" value="View More Products"></center></div>
+
+	</div>
+
+ </div>
+
+
+
+
+<br>
+	<footer>
+		<div class="container-fluid">
+			
+			<div class="row">
+				
+				<div class="col-md-6 col-sm-6 col-xs-12" style="background-image:url('images/we1.jpg');background-position: center;background-repeat: no-repeat;width: 800px,height800px;">
+					<center>
+					<h2 style="    color: white;
+    padding: 22px;">COME ON IN!</h2>
+					<ul>
+						
+						<li id="fot">MONDAY - WEDNESDAY</li>
+						<li>9 AM -7 PM</li>
+						<li id="fot">THURSDAY - FRIDAY</li>
+						<li>9 AM - 9 PM</li>
+						<li id="fot">SATURDAY</li>
+						<li>9 AM - 8 PM</li>
+						<li id="fot">SUNDAY</li>
+						<li>10.30 AM - 5 PM</li>
+						<li id="fot">BANK HOLIDAYS</li>
+						<li>CLOSED</li>
+					</ul>
+	</center>
+				</div>
+		
+			
+				<div class="col-md-6 col-sm-6 col-xs-12" style="background-color:#000;">
+					<center>
+						<h2 style="    color: white;
+    padding: 22px;">CONTACT</h2>
+					<ul>
+						
+						<li id="fot">PHONE</li>
+						<li>+(0044) 7745 197307</li>
+						<li id="fot">EMAIL</li>
+						<li>richmondbarbers@gmail.com/li>
+						<li id="fot">ADDRESS</li>
+						<li>32 Red Lion Street</li>
+						<li>9 AM - 8 PM</li>
+						<li>TW9 1RW</li>
+						<li>(Entrances in Red Lion Street and Church Terrace)/li>
+						<li id="fot">BOOK ONLINE/li>
+						<li>
+							<input type="button" value="CLICK HERE TO BOOK ONLINE" class="btn btn-info">
+            </li>
+						
+					</ul>
+					</center>
+				</div>
+
+			</div>
+		</div>
+		</footer>
+
+
+    
+
+	
+	<div class="footer2">
+<div class="container-fluid ">
+<div class="row">
+<div class="col-md-12">
+	<ul>
+		<li class="active" style="color: blue">Home</li>
+		<li>Services</li>
+		<li>Shop</li>
+		<li>Appointment</li>
+		<li>Carriers</li>
+		<li>Gallery</li>
+
+	</ul>
+<center>
+<div class="my-5">
+      <div class="mb-3">
+        <div id="shareBlock"></div>
+ 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script src="js/jquery.c-share.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+
+    $('#shareBlock').cShare({
+      description: 'jQuery plugin - C Share buttons...',
+      showButtons: [
+        'fb',
+        'gPlus',
+        'line','email'
+      ]
+    });
+  </script>
+</div>
+
+</div>
+</center>
+ </div>
+ </div>
+ </div> 
+ </div> 
+
+ <div class="container-fluid">
+
+  <!-- Button to Open the Modal -->
+
+<script>
+
+
+function signup()
+{
+document.getElementById('signup').style.display="block";
+document.getElementById('login').style.display="none";
+
+}
+function login()
+{
+document.getElementById('signup').style.display="none";
+document.getElementById('login').style.display="block";
+
+}
+</script>
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          
+
+        
+        
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="login" id="login">
+          <div class="form-group">
+            <label>User Name</label>
+            <input type="text" class="form-control">
+          </div>
+            <div class="form-group">
+            <label>Password</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            
+            <span class="modal-title"><input type="button" class="btn btn-success" value="Login" onclick="login();"></span>
+            &nbsp;
+            <span class="modal-title"><input type="button" class="btn btn-primary" value="Create Account" class="signup" onclick="signup();"></span>
+          </div>
+
+         </div>
+         <div class="signup" id="signup" style="display:none;">
+          
+
+<div class="form-group">
+            <label>User Name</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="text" class="form-control">
+          </div>
+            <div class="form-group">
+            <label>Confirm Password</label>
+            <input type="text" class="form-control">
+          </div>
+            <div class="form-group">
+            
+            <input type="button" class="btn btn-info" value="SignUp">
+            <span class="modal-title"><input type="button" class="btn btn-success" value="Login" onclick="login();"></span>
+          </div>
+         </div>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</div>
+</body>
+</html>
